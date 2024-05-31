@@ -1,9 +1,4 @@
 This is a Air Group Movie App project (React Native Expo)
-### App Splash Screen
-![App Splash Screen](src/assets/images/splash-main.png)
-
-### App icon
-![App icon](src/assets/images/icon.png)
 
 ## Getting Started
 
@@ -36,6 +31,12 @@ yarn start
 - **Details Screen**: Provides information about the movie including cast members.
 
 - **Custom Components**: Uses custom notification context to handle errors.
+
+ ### App Splash Screen
+![App Splash Screen](src/assets/images/splash-main.png)
+
+### App icon
+![App icon](src/assets/images/icon.png)
 
 ![Home screen](src/assets/images/readme/home.jpeg)
 ![Home Dark screen](src/assets/images/readme/home-dark.jpeg)
