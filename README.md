@@ -32,7 +32,7 @@ yarn start
 
 - **Custom Components**: Uses custom notification context to handle errors.
 
-![Detail screen](src\assets\images\readme\details.jpeg)
+![Detail screen](src/assets/images/readme/details.jpeg)
 
 
 
