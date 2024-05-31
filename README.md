@@ -32,6 +32,9 @@ yarn start
 
 - **Custom Components**: Uses custom notification context to handle errors.
 
+![Home screen](src/assets/images/readme/home.jpeg)
+![Home Dark screen](src/assets/images/readme/home-dark.jpeg)
+![Search screen](src/assets/images/readme/search.jpeg)
 ![Detail screen](src/assets/images/readme/details.jpeg)
 
 
