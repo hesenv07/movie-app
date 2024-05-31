@@ -1,4 +1,9 @@
 This is a Air Group Movie App project (React Native Expo)
+### App Splash Screen
+![App Splash Screen](src/assets/images/splash-main.png)
+
+### App icon
+![App icon](src/assets/images/icon.png)
 
 ## Getting Started
 
