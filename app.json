@@ -1,0 +1,50 @@
+{
+    "expo": {
+        "name": "Movie App",
+        "slug": "movie-app",
+        "version": "1.0.5",
+        "orientation": "portrait",
+        "icon": "./src/assets/images/icon.png",
+        "userInterfaceStyle": "automatic",
+        "splash": {
+            "image": "./src/assets/images/splash-main.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#BF0728"
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        },
+        "assetBundlePatterns": ["**/*"],
+        "ios": {
+            "supportsTablet": false,
+            "bundleIdentifier": "com.movie.app",
+            "buildNumber": "1.0.5"
+        },
+
+        "android": {
+            "jsEngine": "hermes",
+            "package": "com.movie.app",
+            "versionCode": 11,
+            "permissions": ["RECEIVE_BOOT_COMPLETED", "VIBRATE"],
+            "softwareKeyboardLayoutMode": "pan"
+        },
+
+
+        "packagerOpts": {
+            "config": "metro.config.js",
+            "sourceExts": [
+                "expo.ts",
+                "expo.tsx",
+                "expo.js",
+                "expo.jsx",
+                "ts",
+                "tsx",
+                "js",
+                "jsx",
+                "json",
+                "wasm",
+                "svg"
+            ]
+        }
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+        "yarn:install": "yarn --silent",
+        "start": "expo start",
+        "android": "expo start --android",
+        "ios": "expo start --ios",
+        "web": "expo start --web",
+        "eject": "expo eject",
+        "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",
+        "lint": "tsc --noEmit && eslint \"src/**/*.{js,jsx,ts,tsx}\"",
+        "lint:fix": "yarn lint --fix",
+        "i18next:parse": "i18next 'src/**/*.{ts,tsx}'"
+    },
+    "dependencies": {
+        "@expo/react-native-action-sheet": "^3.13.0",
+        "@expo/vector-icons": "^13.0.0",
+        "@react-native-async-storage/async-storage": "1.18.2",
+        "@react-navigation/bottom-tabs": "^6.3.1",
+        "@react-navigation/drawer": "^6.4.1",
+        "@react-navigation/native": "6.0.2",
+        "@react-navigation/stack": "6.0.7",
+        "@typescript-eslint/typescript-estree": "^5.56.0",
+        "axios": "^1.7.2",
+        "eas-cli": "3.13.3",
+        "expo": "49",
+        "expo-asset": "~8.10.1",
+        "expo-font": "~11.4.0",
+        "expo-localization": "~14.3.0",
+        "expo-splash-screen": "~0.20.5",
+        "expo-status-bar": "~1.6.0",
+        "i18next": "^19.8.7",
+        "lodash": "4.17.20",
+        "npm": "^9.6.6",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "react-i18next": "^11.8.5",
+        "react-native": "0.72.10",
+        "react-native-gesture-handler": "~2.12.0",
+        "react-native-paper": "^4.7.2",
+        "react-native-reanimated": "~3.3.0",
+        "react-native-safe-area-context": "4.6.3",
+        "react-native-screens": "~3.22.0",
+        "react-native-size-matters": "^0.4.0",
+        "react-native-svg": "13.9.0",
+        "react-native-svg-transformer": "^0.14.3",
+        "yarn": "^1.22.10"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.19.3",
+        "@types/lodash": "^4.14.161",
+        "@types/luxon": "^1.25.0",
+        "@types/react": "~18.2.0",
+        "@types/react-native": "~0.70.8",
+        "@typescript-eslint/eslint-plugin": "^5.56.0",
+        "@typescript-eslint/parser": "^5.56.0",
+        "babel-eslint": "10.1.0",
+        "babel-plugin-module-resolver": "4.1.0",
+        "babel-preset-expo": "^9.5.0",
+        "eslint": "^8.36.0",
+        "eslint-config-prettier": "^6.11.0",
+        "eslint-plugin-prettier": "^3.1.4",
+        "eslint-plugin-react": "^7.20.6",
+        "husky": "^4.3.0",
+        "i18next-parser": "^3.6.0",
+        "jest-expo": "~49.0.0",
+        "lint-staged": "^10.4.0",
+        "metro-react-native-babel-preset": "^0.65.2",
+        "prettier": "^2.1.2",
+        "typescript": "^5.0.2"
+    },
+    "private": true,
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
+    },
+    "lint-staged": {
+        "src/**/*.{js,jsx,ts,tsx}": [
+            "yarn format",
+            "yarn lint:fix"
+        ]
+    },
+    "resolutions": {
+        "@types/react": "~18.2.0",
+        "@types/react-native": "~0.70.8"
+    }
+}

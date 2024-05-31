@@ -1,0 +1,72 @@
+{
+    "actions": {
+        "releaseToConfirm": "Təsdiqləmək üçün buraxın",
+        "swipeToConfirm": "Təsdiqləmək üçün sürüşdürün"
+    },
+    "language": {
+        "displayLanguage": "İstifadə dili"
+    },
+    "settings": {
+        "title": "Tənzimləmələr",
+        "deleteAccount": "Hesabı sil",
+        "close": "Bağla"
+    },
+    "drawer": {
+        "profile": "Hesabım",
+        "balance": "Balansım",
+        "packages": "Bağlamalarım",
+        "orders": "Sifarişlərim",
+        "easyOrder": "Asan sifariş",
+        "addresses": "Ünvanlarım",
+        "externalStocks": "Xarici anbarlar",
+        "courier": "Kuryer",
+        "stores": "Mağazalar",
+        "bonuses": "Bonuslar",
+        "biometric": "Biometrik",
+        "faceID": "Face ID",
+        "applications": "Müraciətlər",
+        "news": "Xəbərlər",
+        "contact": "Əlaqə",
+        "language": "Dil",
+        "settings": "Tənzimləmələr",
+        "logout": "Hesabdan çıxış",
+        "soon": "Tezliklə"
+    },
+    "bottomBar": {
+        "home": "Home",
+        "search": "Search",
+    },
+    "enums": {
+        "MALE": "Kişi",
+        "FEMALE": "Qadın",
+        "SALES_ORDER_PAY_BY_CARD": "Kartla ödəndi",
+        "SALES_ORDER_PAY_BY_CASH": "Nağd ödəndi",
+        "SALES_ORDER_PAY_BY_BALANCE": "Balansla ödəndi",
+        "BALANCE_TOP_UP_BY_CARD": "Kartla balansın artırılması",
+        "BALANCE_TOP_UP_IN_CASH": "Nağdla balansın artırılması",
+        "BALANCE_REFUND": "Balansın geri qaytarılması",
+        "REGISTER_BONUS": "Qeydiyyat bonusu",
+        "REFERRAL_BONUS": "Yönləndirilmə bonusu",
+        "PACKAGE": "Bağlama",
+        "PURCHASE_ORDER": "Sifariş",
+        "PACKAGE_REFUND": "Bağlama geri qaytarılması",
+        "PURCHASE_ORDER_REFUND": "Sifariş geri qaytarılması",
+        "PAID": "Ödənildi",
+        "PENDING": "Bəyan edildi",
+        "CANCELLED": "Təxirə salındı",
+        "DECLINED": "Rədd edildi",
+        "IN_EXTERNAL_STOCK": "Xarici Anbardadır",
+        "SENT_FROM_EXTERNAL_STOCK": "Xarici Anbardan Göndərildi",
+        "IN_CUSTOM": "Gömrükdədir",
+        "IN_LOCAL_STOCK": "Yerli Anbardadır",
+        "IN_BRANCH": "Filialdadır",
+        "HANDED_OVER": "Təhvil verildi",
+        "SENT": "Sent",
+        "DECLARED": "Declared",
+        "ADDED_TO_BOX": "Added to box",
+        "DEPESH": "Depesh",
+        "DEFAULT": "Standart",
+        "LIQUID": "Maye",
+        "FRAGILE": "Davamsız"
+    }
+}

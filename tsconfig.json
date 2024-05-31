@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+        "target": "ES2017",
+        "lib": ["es6", "dom", "dom.iterable", "esnext"],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": false,
+        "forceConsistentCasingInFileNames": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "noEmit": true,
+        "jsx": "react-native",
+        "sourceMap": true,
+        "declaration": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "experimentalDecorators": true,
+        "noFallthroughCasesInSwitch": true,
+        "baseUrl": "./src",
+        "noImplicitAny": false,
+        "noImplicitThis": true,
+        "strictNullChecks": true,
+        "isolatedModules": true,
+        "paths": {
+            "*": ["*"]
+        }
+    },
+    "include": ["src/**/*", "src/context/auth/.ts"],
+    "types": ["@types/styled-components-react-native"],
+    "exclude": ["node_modules", "build"],
+    "extends": "expo/tsconfig.base",
+}
